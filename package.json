@@ -1,0 +1,12 @@
+{
+  "name": "sdi-checkpoint-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mojo9492/sdi-checkpoint-express.git",
+  "author": "mojo9492 <mojo9492@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
