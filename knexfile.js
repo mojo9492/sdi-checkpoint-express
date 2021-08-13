@@ -9,15 +9,16 @@ module.exports = {
       port: 5432,
       user: 'postgres',
       password: 'docker',
-      database: 'checkpointdb'
-    }
+      database: 'gmdb'
+    },
+    useNullAsDefault: false
   },
 
   staging: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
@@ -33,7 +34,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
